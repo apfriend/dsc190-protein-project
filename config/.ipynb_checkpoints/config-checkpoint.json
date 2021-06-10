@@ -1,0 +1,18 @@
+{
+    "scraping-params" : {
+        "url" : "https://pdb101.rcsb.org/motm/motm-by-category",
+        "dst" : "../../data/raw"
+    },
+    
+    "cleaning-params" : {
+        "src" : "../data/test/pdb-data",
+        "dst" : "../data/test/csv-data"
+    },
+
+    "analysis-params" : {
+        "dst" : "../data/out",
+        "pdb-src" : "../data/test/pdb-data",
+        "csv-src" : "../data/test/csv-data",
+        "test-radii" : [3,4,5,6,7,8,9,10]
+    }
+}
